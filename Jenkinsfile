@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Init'){
       steps {
-        echo "Testing master (test 2)..."
+        echo "Testing master on branch '${GIT_LOCAL_BRANCH}'..."
       }
     }
   }
